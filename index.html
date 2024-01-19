@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Mukta's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -21,7 +20,6 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -37,19 +35,16 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
-      </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p1">Hello! I'm</p>
+        <h1 class="profile-title">Mukta Ubale</h1>
+        <p class="section__text__p2">Bioinformatics & Data Scientist</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/[Mukta Ubale] Resume (2).pdf')"
           >
-            Download CV
+            Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -60,24 +55,27 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/mukta-ubale-003338181/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/MuktaUbale'"
           />
         </div>
       </div>
+
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Mukta profile picture" />
+      </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/profile-pic-2.jpg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -91,7 +89,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p>3+ years of <br />CS & DS internships</p>
             </div>
             <div class="details-container">
               <img
@@ -100,17 +98,25 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>Harvey Mudd College</p>
+              <p1>BS in Math, CS, & Biology</p1>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              I'm a creative thinker and a constant learner, passionate about the intersection of <p_b> science, technology, and society</p_b>. 
+              More specifically, I wish to <p_b>leverage AI and ML tools</p_b> to reduce the disparaties prevalent in (or caused by) current 
+              global socioeconomic systems, such as <p_b>healthcare</p_b>, nutrition & agriculture, and the climate crisis.
+              <br> 
+              <br>
+              I believe that there is a vibrancy and unique potenial that exists at the multidimensional place where my interests meet. 
+              I want to be part of a team that is <p_b>striving directly into it</p_b>. 
+              <br>
+              <br>
+              I'm a <p_b>young</p_b> professional. If I am the smartest person in the room, then I'm in the wrong room! I am <p_b>always</p_b> looking to experience, absorb, learn, and receive constructive criticism.
+              <br>
+              <br>
+              
             </p>
           </div>
         </div>
@@ -123,12 +129,14 @@
       />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">My Experience</h1>
+      <p><br>includes BSL-2 lab work, computation-based research (involving computer vision, molecular 
+        dynamics, power-law scaling studies), and internships working with venture funded 
+        healthcare startups. <p_b>Here's some of the skills I've collected through these opportunities:</p_b></p>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Data Science</h2>
             <div class="article-container">
               <article>
                 <img
@@ -137,7 +145,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>R</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -148,7 +156,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h3>MATLAB</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -159,7 +167,61 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
+                  <h3>PyTorch</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SAS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3></h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Bioinformatics</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BLAST</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NGS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -170,36 +232,14 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
+                  <h3>mySQL</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Software Engineering</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,8 +248,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Linux/Unix</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -219,8 +259,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>C/C++</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -230,7 +270,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
+                  <h3>AWS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -257,84 +297,86 @@
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h1 class="title">My Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
+            <h2>Coding</h2>
+            <p_list>
+              <br>
+              CellectGen Inc. 
+              <a href="https://www.cellectgen.com/">
+                Website
+              </a>
+              /
+              <a href="https://github.com/CellectGen/CellectGen">
+                Repo
+              </a>
+              /
+              <a href="https://drive.google.com/file/d/19l7lU29Cm-JrNQVxfbamSyOFauc-huRO/view?usp=sharing">
+                Detection Demo
+              </a>
+              <br>
+              <br>
+              HMC Bee Lab. 
+              <a href="https://github.com/MuktaUbale/Flower-Mapping-Project">
+                Flower Mapping Project Repo
+              </a>
+              <br>
+              <br>
+              Lotus Integrative Health.
+              <a href="">
+                Repo
+              </a>
+              /
+              <a href="https://drive.google.com/file/d/1mGb_SqzEqNR91meYL5c-pIlhTky9O0EL/view?usp=drive_link">
+                Funding Presentation
+              </a>
+              <br>
+              <br>
+              Neural Networks.
+              <a href="https://github.com/MuktaUbale/ViT-implementation">
+                Comparing ViTs Repo
+              </a>
+            </p_list>
+            <br>
+            <br>
+            <br>
+            <h2>Writing</h2>
+            <p_list>
+              <br>
+              Topics in Biochemistry & Molecular Biology.
+              <a href="https://drive.google.com/file/d/18T8tKXIV2ExYEMyyIT5G-5eoIJ_TX2YP/view?usp=sharing">
+                "Developing an Functional In Vitro System to Assess Effects of the INS VNTR Polymorphism on the Proteomic Regulation of the INS gene and Subsequent Glucose-Insulin Interactions."
+              </a>
+              <br>
+              <br>
+              Science, Politics, and Alternative Medicine.
+              <a href="assets/Untitleddocument.html">
+                "Using Food to Heal the Gut, Brain, and Body: A Deep-Dive into Traditional and Conventional Medicine’s Perspective on Plants, Nutrition, and Diet."
+              </a>
+              <br>
+              <br>
+              HMC Bee Lab. 
+              <a href="https://hmcbee.blogspot.com/2023/05/a-bees-eye-view-rethinking-image.html">"A Bee's-Eye View! Rethinking Image Thresholding to Save the Bees."
+              </a>
+              <br>
+              <br>
+              Molecular Biology Lab.
+              <a href="assets/HDAC3 Clone 2 - Mukta.pdf">
+                "HDAC3 as Potential Target for Antitrypanosomal Drug" Presentation.
+              </a>
+              <br>
+              <br>
+              Neural Networks.
+              <a href="https://drive.google.com/file/d/1HUu_G1TfJSVSKXPMdxP15W39y-Pve0Ow/view?usp=sharing">
+                "Comparing ViTs for Image Classification".
+              </a>
+            </p_list>
+          </div>          
         </div>
       </div>
+      
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -343,7 +385,7 @@
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
+      <p class="section__text__p1">Let's Get in Touch!</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
@@ -352,7 +394,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:muktaubale7@gmail.com">muktaubale7@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +402,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/mukta-ubale-003338181/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -375,7 +417,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2023 Mukta Ubale. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
